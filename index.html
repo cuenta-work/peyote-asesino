@@ -64,6 +64,7 @@
   <a class="marca" href="#inicio" aria-label="Inicio"><svg viewBox="0 0 40 40" width="30" height="30"><path d="M20 6c5 0 6 3 9 4s6 4 5 9 1 8-3 11-7 4-11 4-8-1-11-4-4-6-3-11 2-8 5-9 4-4 9-4z" stroke-width="2.4" style="fill:var(--acido);stroke:var(--tinta)"/><path d="M11 17h8v4h-8zM21 17h8v4h-8z" style="fill:var(--tinta)"/><path d="M13 26q7 5 14 0" fill="none" stroke-width="2.4" style="stroke:var(--tinta)"/></svg></a>
   <nav id="nav" aria-label="Secciones">
     <a href="#inicio">Inicio</a><a href="#radio">Radio</a><a href="#banda">La banda</a><a href="#historia">Historia</a><a href="#discos">Discos</a><a href="#vidas">Otras vidas</a><a href="#datos">Datos</a><a href="#adn">ADN</a><a href="#maquina">La máquina</a><a href="#escenarios">Escenarios</a><a href="#videos">Videos</a><a href="#cabos">Cabos sueltos</a><a href="#ofrenda">Ofrenda</a><a href="#firma">Firma</a>
+    <button class="instalar" id="instalar" type="button" hidden>📲 Instalar app</button>
   </nav>
   <button class="hamb" id="hamb" aria-label="Abrir menú" aria-expanded="false" aria-controls="nav"><svg viewBox="0 0 40 40" width="34" height="34"><g class="h-l"><path d="M6 12h28"/><path d="M6 20h28"/><path d="M6 28h28"/></g><g class="h-x"><path d="M10 10l20 20M30 10L10 30"/></g></svg></button>
 </header>
@@ -482,6 +483,18 @@ y volvió.</span>
 </div>
 
 <div class="modal" id="modal"><div class="box" id="modalBox"></div></div>
+<div class="ios-inst" id="iosInst" role="dialog" aria-modal="true" aria-labelledby="iosTit" hidden>
+  <div class="ios-caja">
+    <button class="ios-x" id="iosX" aria-label="Cerrar">✕</button>
+    <h3 id="iosTit">Instalala en tu iPhone</h3>
+    <ol>
+      <li>Tocá <b>Compartir</b> <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M12 3v12M7 8l5-5 5 5M5 12v8h14v-8"/></svg> abajo, en Safari.</li>
+      <li>Elegí <b>Agregar a pantalla de inicio</b>.</li>
+      <li>Tocá <b>Agregar</b>: el Peyote queda con su ícono, como una app.</li>
+    </ol>
+    <p>Si estás en otro navegador, abrí esta página en Safari.</p>
+  </div>
+</div>
 <div class="tip" id="tip"></div>
 <script src="app.js"></script>
 <script>if('serviceWorker' in navigator)addEventListener('load',()=>navigator.serviceWorker.register('/sw.js'));</script>

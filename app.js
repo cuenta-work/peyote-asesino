@@ -474,6 +474,22 @@ $$(".sticker").forEach(st=>{let sx,sy,ox=0,oy=0,drag=false;
 /* ======================= gráficos anchos: se deslizan en el celular ======================= */
 [["net",880],["map",500],["chDur",720],["chAnios",640],["chAvg",470],["chTot",470],["chYt",470],["chScat",470],["chKey",470]].forEach(([id,mw])=>{const sv=$("#"+id);const w=document.createElement("div");w.className="desliza";w.style.setProperty("--mw",mw+"px");sv.parentNode.insertBefore(w,sv);w.appendChild(sv);const h=document.createElement("p");h.className="desliza-hint";h.textContent="← deslizá para ver todo →";w.after(h)});
 
+/* ======================= instalar la app ======================= */
+(()=>{const b=$("#instalar"),ios=$("#iosInst");let ev=null;
+  const instalada=matchMedia("(display-mode: standalone)").matches||navigator.standalone===true;
+  const esIOS=/iphone|ipad|ipod/i.test(navigator.userAgent)||(navigator.platform==="MacIntel"&&navigator.maxTouchPoints>1);
+  if(instalada)return;
+  // Android y compu: el navegador avisa que se puede instalar y guardamos ese aviso para el botón
+  addEventListener("beforeinstallprompt",e=>{e.preventDefault();ev=e;b.hidden=false});
+  addEventListener("appinstalled",()=>{b.hidden=true;ev=null});
+  // iPhone: Safari no tiene aviso, así que el botón muestra los pasos
+  if(esIOS)b.hidden=false;
+  const cerrar=()=>{ios.hidden=true;b.focus()};
+  b.addEventListener("click",async()=>{if(ev){ev.prompt();const r=await ev.userChoice;if(r.outcome==="accepted")b.hidden=true;ev=null}else if(esIOS){ios.hidden=false;$("#iosX").focus()}});
+  $("#iosX").addEventListener("click",cerrar);ios.addEventListener("click",e=>{if(e.target===ios)cerrar()});
+  addEventListener("keydown",e=>{if(e.key==="Escape"&&!ios.hidden)cerrar()});
+})();
+
 /* ======================= menú celular ======================= */
 (()=>{const h=$("#hamb"),nav=$("#nav");const set=o=>{h.setAttribute("aria-expanded",o);nav.classList.toggle("abierto",o);h.setAttribute("aria-label",o?"Cerrar menú":"Abrir menú")};
   h.addEventListener("click",()=>set(h.getAttribute("aria-expanded")!=="true"));nav.addEventListener("click",e=>{if(e.target.closest("a"))set(false)});

@@ -1,5 +1,5 @@
 // Service worker mínimo: hace la app instalable y deja ver la última versión sin conexión.
-const CACHE = 'peyote-v1';
+const CACHE = 'peyote-v2';
 const SHELL = ['/', '/styles.css', '/app.js', '/icon.svg', '/icon-192.png'];
 
 self.addEventListener('install', e => {
