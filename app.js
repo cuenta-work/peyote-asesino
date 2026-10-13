@@ -39,19 +39,22 @@ const BDV=[["Chupando la cuchara (en vivo)",234],["Denso (en vivo) con Ale Picco
 
 /* ======================= RADIO (YouTube) ======================= */
 const RADIO=[
- ["Terraja · 1998"],
- ["u-X4aeoQ4hE","Mal de la cabeza","Terraja · video oficial"],["k4fm4Qg7_qE","Cable pelado","Terraja · video oficial"],["P3E5_xUMb6M","Criminal","Terraja · audio"],["XspK4ibvHCo","Guacho","Terraja"],
- ["El Peyote Asesino · 1995"],
- ["Sjc37IAG09s","L Mental","1995 · video oficial"],["ixQJ72QIP78","El Peyote Asesino","en vivo · canal de Santullo"],
- ["Serial · 2017–2021"],
- ["QNaLyAhuuNg","Vos no me llamaste","Serial · video oficial"],["3pcV51HjEf4","La tumba de los crá","Serial · video oficial"],["OvGUoSv3t-Y","Es lo que hay","Serial · video animado"],["m7kEDsNwXwI","Bailando samba","Serial · video oficial"],
- ["Bien de Vivo · 6/12/2025"],
- ["eYwT_qeMhPo","Chupando la cuchara","Bien de Vivo · Sala del Museo"],["V9gW9L2PWcs","Denso","Bien de Vivo · con Ale Piccone"],["agli2-19TjU","Tierra derretida","Bien de Vivo · Sala del Museo"],
+ ["El Peyote Asesino · 1995 · disco completo"],
+ ["MGWLIxeVXXM","El Peyote Asesino","1995 · tema 1","d95"],["BZs6_CsovTg","Chupando la cuchara","1995 · tema 2","d95"],["CuDqBTanLvU","Wanker","1995 · tema 3","d95"],["aWOilpzkL5c","Todos muertos","1995 · tema 4","d95"],["3S2d9oTYHKk","Satisfaction","1995 · tema 5","d95"],["TlJhCwAY2Ms","Lyrics","1995 · tema 6","d95"],["Nk1q05s-8SU","L Mental","1995 · tema 7","d95"],["jqjNBUS8T-Q","H.K.","1995 · tema 8","d95"],["ZaI_QB_n78A","Tanta parla","1995 · tema 9","d95"],["Lm7gnotBMws","Gavilán o paloma / El ojo blindado","1995 · tema 10","d95"],["wjFWGAr1n3k","La concha","1995 · tema 11","d95"],["4tYcxMg46A8","Wanker (versión radio)","1995 · tema 12","d95"],["_4C48xihZfo","Penicilina","1995 · tema 13","d95"],
+ ["Terraja · 1998 · disco completo"],
+ ["P3E5_xUMb6M","Criminal","Terraja · tema 1","d98"],["27NpE8FSyDQ","Guacho","Terraja · tema 2","d98"],["-5a-S-tFYek","Mal de la cabeza","Terraja · tema 3","d98"],["3EcrJpdkWp0","El Peyote Asesino","Terraja · tema 4","d98"],["XQ9iJ4Sa00Q","Denso","Terraja · tema 5","d98"],["6OIYamdkLcI","Cable pelado","Terraja · tema 6","d98"],["lA_ecPNoZnY","Perkins","Terraja · tema 7","d98"],["RNXYAf3Nhww","UR Gay","Terraja · tema 8","d98"],["8zX8AxvBGz0","L Mental","Terraja · tema 9","d98"],["K7-R5CgY1yE","Cama biónica","Terraja · tema 10","d98"],["wsaOP81V6PI","Psicoterapeuta","Terraja · tema 11","d98"],["yHNtmw3IlwI","La concha","Terraja · tema 12","d98"],["GlzGXFs76Q0","De pedo y de tos","Terraja · tema 13","d98"],["kAi0WqIEwf0","Demente","Terraja · tema 14","d98"],
+ ["Serial · 2021 · disco completo"],
+ ["H279iPxIdDY","Flor de gil","Serial · tema 1","d21"],["2Gd4kvJA-N0","No te peines","Serial · tema 2","d21"],["p98ytEGB7_A","La tumba de los crá","Serial · tema 3","d21"],["qVG9wEA3xAw","En la B","Serial · tema 4","d21"],["OvGUoSv3t-Y","Es lo que hay","Serial · tema 5","d21"],["ei-2jgmAPWk","Vos no me llamaste","Serial · tema 6","d21"],["w2ZjyIpfVy8","Tierra derretida","Serial · tema 7","d21"],["soCGksmkYLQ","Pump Up the Parla","Serial · tema 8","d21"],["kadr72TrLNM","Bailando samba","Serial · tema 9","d21"],["xDndz2QFYEU","Perdiste","Serial · tema 10","d21"],
+ ["Bien de Vivo · Sala del Museo, 6/12/2025"],
+ ["eYwT_qeMhPo","Chupando la cuchara (en vivo)","Bien de Vivo · video"],["V9gW9L2PWcs","Denso (en vivo) con Ale Piccone","Bien de Vivo · video"],["agli2-19TjU","Tierra derretida (en vivo)","Bien de Vivo · video"],
+ ["Videoclips"],
+ ["u-X4aeoQ4hE","Mal de la cabeza","video oficial · 1998"],["k4fm4Qg7_qE","Cable pelado","video oficial · 1998"],["Sjc37IAG09s","L Mental","video oficial · 1995"],["m7kEDsNwXwI","Bailando samba","video oficial · 2017"],["QNaLyAhuuNg","Vos no me llamaste","video oficial · 2020"],["3pcV51HjEf4","La tumba de los crá","video oficial · 2021"],["OvGUoSv3t-Y","Es lo que hay","video animado · 2021"],
  ["En vivo y archivo"],
- ["HSLcTn8lP-Q","Criminal (en vivo)","Pilsen Rock · Durazno 2009"],["-xltcblq6dg","Mal de la cabeza (en vivo)","canal oficial"],["z_RbF_g9sWk","Todos muertos (en vivo)","2016"],["x7FSWTyy4Bk","Guacho (en vivo)","San José de Mayo · 1997"],["VUlH0KIy92U","Vos no me llamaste (en vivo)","Montevideo Rock 2020"],["Mdb6WYyXH6E","Mal de la cabeza con The Horribles","OLA Stream Océano"]
+ ["HSLcTn8lP-Q","Criminal (en vivo)","Pilsen Rock · Durazno 2009"],["-xltcblq6dg","Mal de la cabeza (en vivo)","canal oficial"],["z_RbF_g9sWk","Todos muertos (en vivo)","2016"],["x7FSWTyy4Bk","Guacho (en vivo)","San José de Mayo · 1997"],["VUlH0KIy92U","Vos no me llamaste (en vivo)","Montevideo Rock 2020"],["ixQJ72QIP78","El Peyote Asesino (en vivo)","canal de Santullo"],["Mdb6WYyXH6E","Mal de la cabeza con The Horribles","OLA Stream Océano"]
 ];
-const PL=RADIO.filter(r=>r.length===3);
-const findPL=n=>{n=n.toLowerCase().replace(/ \(.*/,"");return PL.findIndex(p=>p[1].toLowerCase()===n)};
+const PL=RADIO.filter(r=>r.length>=3);
+// cada tema de un disco suena en su propia versión; si no, la primera que coincida por título
+const findPL=(n,disc)=>{const i=PL.findIndex(p=>p[3]===disc&&p[1]===n);if(i>=0)return i;n=n.toLowerCase().replace(/ \(.*/,"");return PL.findIndex(p=>p[1].toLowerCase()===n)};
 
 /* ======================= TIMELINE ======================= */
 const TL=[
@@ -123,7 +126,7 @@ DISCS.forEach(d=>{
   el.innerHTML=`<div class="cover tilt"><div class="vinyl"></div><img src="${COV[d.id]}" alt="Tapa de ${d.t}" loading="lazy"><div class="glare"></div></div>
   <div><h3 class="t" style="color:${d.color};font-family:'${d.font}',Rubik">${d.t}</h3><div class="meta">${d.y} · ${d.label} · ${d.tr.length} temas · ${fmt(tot)} · promedio ${fmt(tot/d.tr.length)}</div>
   <p class="desc">${d.desc}</p>
-  <ol class="tracks">${d.tr.map(t=>{const r=findPL(t[0]);return `<li><span>${t[0]}${t[5]?`<small>${t[5]}</small>`:""}${r>=0?`<button class="pl" data-r="${r}" aria-label="Escuchar ${t[0]}">▶ oír</button>`:""}</span><span class="dur">${fmt(t[1])}</span><span class="bar" style="width:calc(${(t[1]/maxDur*100).toFixed(1)}% - 34px);background:${d.color}"></span></li>`}).join("")}</ol>
+  <ol class="tracks">${d.tr.map(t=>{const r=findPL(t[0],d.id);return `<li><span>${t[0]}${t[5]?`<small>${t[5]}</small>`:""}${r>=0?`<button class="pl" data-r="${r}" aria-label="Escuchar ${t[0]}">▶ oír</button>`:""}</span><span class="dur">${fmt(t[1])}</span><span class="bar" style="width:calc(${(t[1]/maxDur*100).toFixed(1)}% - 34px);background:${d.color}"></span></li>`}).join("")}</ol>
   <p class="credits">${d.credits}</p></div>`;
   $("#discs").appendChild(el);
 });
