@@ -464,6 +464,9 @@ $$(".sticker").forEach(st=>{let sx,sy,ox=0,oy=0,drag=false;
   (function f(){x+=(tx-x)*.25;y+=(ty-y)*.25;c.style.transform=`translate(${x}px,${y}px)`;requestAnimationFrame(f)})();
 })();
 
+/* ======================= gráficos anchos: se deslizan en el celular ======================= */
+[["net",880],["map",500],["chDur",720],["chAnios",640],["chAvg",470],["chTot",470],["chYt",470],["chScat",470],["chKey",470]].forEach(([id,mw])=>{const sv=$("#"+id);const w=document.createElement("div");w.className="desliza";w.style.setProperty("--mw",mw+"px");sv.parentNode.insertBefore(w,sv);w.appendChild(sv);const h=document.createElement("p");h.className="desliza-hint";h.textContent="← deslizá para ver todo →";w.after(h)});
+
 /* ======================= menú celular ======================= */
 (()=>{const h=$("#hamb"),nav=$("#nav");const set=o=>{h.setAttribute("aria-expanded",o);nav.classList.toggle("abierto",o);h.setAttribute("aria-label",o?"Cerrar menú":"Abrir menú")};
   h.addEventListener("click",()=>set(h.getAttribute("aria-expanded")!=="true"));nav.addEventListener("click",e=>{if(e.target.closest("a"))set(false)});
