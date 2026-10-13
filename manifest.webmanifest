@@ -1,0 +1,23 @@
+{
+  "name": "El Peyote Asesino — Cubo de Rubik demencial",
+  "short_name": "Peyote Asesino",
+  "id": "/",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "lang": "es-UY",
+  "description": "Homenaje no oficial a El Peyote Asesino: rap blanco desde Villa Española, tres discos, treinta y dos años y el Bien de Vivo.",
+  "categories": ["music", "entertainment"],
+  "background_color": "#f4f6f0",
+  "theme_color": "#f4f6f0",
+  "screenshots": [
+    {"src": "/capturas/app-wide.webp", "sizes": "1280x720", "type": "image/webp", "form_factor": "wide", "label": "El Peyote Asesino: de Villa Española al Bien de Vivo"},
+    {"src": "/capturas/app-narrow.webp", "sizes": "390x844", "type": "image/webp", "form_factor": "narrow", "label": "Prendé la radio y recorré 32 años de rap blanco"}
+  ],
+  "icons": [
+    { "src": "/icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any" },
+    { "src": "/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "/icon-maskable.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ]
+}

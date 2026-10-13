@@ -1,0 +1,489 @@
+<!doctype html>
+<html lang="es" data-era="26">
+<head>
+<meta charset="utf-8">
+<meta name="google-site-verification" content="ld3YereCoqDZ9o3RGkLHscmac9AnQd1IQqXa5Pc5EKE">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>El Peyote Asesino — Cubo de Rubik demencial</title>
+<meta name="description" content="Homenaje no oficial a El Peyote Asesino: rap blanco desde Villa Española, tres discos, treinta y dos años, las vueltas y el Bien de Vivo. Un regalito de Fungirak.">
+<link rel="canonical" href="https://peyote-asesino.fungirak.com/">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://peyote-asesino.fungirak.com/">
+<meta property="og:site_name" content="El Peyote Asesino · Cubo de Rubik demencial">
+<meta property="og:locale" content="es_UY">
+<meta property="og:title" content="El Peyote Asesino — de Villa Española al Bien de Vivo">
+<meta property="og:description" content="Treinta y dos años de rap blanco montevideano: discos, recitales, datos, videos y tres letras de regalo. Un homenaje de Fungirak.">
+<meta property="og:image" content="https://cdn-images.dzcdn.net/images/cover/d00976cb41c4115334f436f33c4792c8/1000x1000-000000-80-0-0.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="El Peyote Asesino — de Villa Española al Bien de Vivo">
+<meta name="twitter:description" content="Treinta y dos años de rap blanco montevideano: discos, recitales, datos, videos y tres letras de regalo. Un homenaje de Fungirak.">
+<meta name="twitter:image" content="https://cdn-images.dzcdn.net/images/cover/d00976cb41c4115334f436f33c4792c8/1000x1000-000000-80-0-0.jpg">
+<meta name="author" content="Fungirak">
+<meta name="theme-color" content="#f4f6f0">
+<link rel="icon" href="/favicon.ico" sizes="any">
+<link rel="icon" href="/icon.svg" type="image/svg+xml">
+<link rel="icon" href="/icon-192.png" sizes="192x192" type="image/png">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+<link rel="manifest" href="/manifest.webmanifest">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="Peyote Asesino">
+<meta name="apple-mobile-web-app-status-bar-style" content="default">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preconnect" href="https://cdn-images.dzcdn.net">
+<link rel="preconnect" href="https://i.ytimg.com">
+<link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&family=Rubik+Mono+One&family=Rubik+Bubbles&family=Rubik+80s+Fade&family=Rubik+Broken+Fax&family=Rubik+Wet+Paint&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Rubik+Glitch&family=Rubik+Puddles&family=Rubik+Maze&family=Rubik+Microbe&family=Rubik+Spray+Paint&family=Rubik+Beastly&family=Rubik+Iso&family=Rubik+Moonrocks&family=Rubik+Vinyl&family=Rubik+Burned&family=Rubik+Dirt&family=Rubik+Marker+Hatch&family=Rubik+Doodle+Shadow&family=Rubik+Scribble&family=Rubik+Storm&text=PEYOTpeyot&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+<script type="application/ld+json">
+{"@context":"https://schema.org","@graph":[
+{"@type":"WebSite","@id":"https://peyote-asesino.fungirak.com/#web","url":"https://peyote-asesino.fungirak.com/","name":"El Peyote Asesino · Cubo de Rubik demencial","inLanguage":"es-UY","description":"Homenaje no oficial a El Peyote Asesino, banda de Villa Española, Montevideo, desde 1994.","publisher":{"@type":"Organization","name":"FUNGIRAK Studio","url":"https://fungirak.com"},"about":{"@id":"https://peyote-asesino.fungirak.com/#banda"}},
+{"@type":"MusicGroup","@id":"https://peyote-asesino.fungirak.com/#banda","name":"El Peyote Asesino","alternateName":"Peyote Asesino","genre":["Rap metal","Rock alternativo","Hip hop"],"foundingDate":"1994","foundingLocation":{"@type":"Place","name":"Villa Española, Montevideo, Uruguay"},"sameAs":["https://www.peyoteasesino.com/","https://www.instagram.com/peyote_asesino_/","https://www.youtube.com/@peyoteoficial","https://open.spotify.com/artist/2cYeADErfbwZ0xIP19KeWD","https://es.wikipedia.org/wiki/El_Peyote_Asesino"],"member":[{"@type":"Person","name":"Fernando Santullo"},{"@type":"Person","name":"Carlos Casacuberta"},{"@type":"Person","name":"Juan Campodónico"},{"@type":"Person","name":"José \"PP\" Canedo"},{"@type":"Person","name":"Matías Rada"},{"@type":"Person","name":"Bruno Tortorella"},{"@type":"Person","name":"Nacho Correa"}]}
+]}
+</script>
+<script>try{var e=localStorage.getItem("peyote-era");if(e)document.documentElement.dataset.era=e}catch(_){}</script>
+<script defer src="/_vercel/insights/script.js"></script>
+</head>
+<body>
+<div class="prog" id="prog"></div>
+<canvas id="gl" aria-hidden="true"></canvas>
+<div class="artfloat" id="artfloat" aria-hidden="true"></div>
+<canvas id="confeti" aria-hidden="true"></canvas>
+<div class="grain"></div>
+<div class="rollo" aria-hidden="true"></div>
+<div id="cursor" aria-hidden="true"><svg viewBox="0 0 40 40"><path d="M20 6c5 0 6 3 9 4s6 4 5 9 1 8-3 11-7 4-11 4-8-1-11-4-4-6-3-11 2-8 5-9 4-4 9-4z" stroke-width="2" style="fill:var(--acido);stroke:var(--tinta)"/><path d="M11 17h8v4h-8zM21 17h8v4h-8zM19 18h2" style="fill:var(--tinta);stroke:var(--tinta)"/><path d="M13 26q7 5 14 0" fill="none" stroke-width="2" style="stroke:var(--tinta)"/></svg></div>
+
+<div class="rail l"><span>El Peyote Asesino · Villa Española · Montevideo · 1994 — 2026</span></div>
+<div class="rail r"><span>34°52′S 56°08′O · hijos del exilio en México · rap blanco · un regalito de Fungirak</span></div>
+<svg class="cable" viewBox="0 0 34 1000" preserveAspectRatio="none" aria-hidden="true"><path id="cableA" d="" fill="none" stroke-width="2.2" style="stroke:var(--tinta)"/><path id="cableB" d="" fill="none" stroke-width="1.4" style="stroke:var(--rojo)"/><g id="chispas"></g></svg>
+<button class="cubo-btn" id="cuboBtn" aria-label="Cambiar de época"><div class="cubo" id="cubo"><i class="f1"></i><i class="f2"></i><i class="f3"></i><i class="f4"></i><i class="f5"></i><i class="f6"></i></div><span id="eraLab">2026</span></button>
+<div class="corner tr" aria-hidden="true"><svg viewBox="0 0 120 120" class="pegote"><defs><path id="circP" d="M60,60 m-44,0 a44,44 0 1,1 88,0 a44,44 0 1,1 -88,0"/></defs><circle cx="60" cy="60" r="58" stroke-width="2" style="fill:var(--amar);stroke:var(--tinta)"/><text font-family="Rubik" font-weight="800" font-size="10.5" letter-spacing="1.4" style="fill:var(--tinta)"><textPath href="#circP">ESTÁ BUSCANDO PROBLEMAS · ESTÁ BUSCANDO PROBLEMAS · </textPath></text><circle cx="60" cy="60" r="20" stroke-width="2" style="fill:var(--acido);stroke:var(--tinta)"/><path d="M48 56h10v5H48zM62 56h10v5H62z" style="fill:var(--tinta)"/><path d="M50 66q10 7 20 0" stroke-width="2" fill="none" style="stroke:var(--tinta)"/></svg></div>
+<svg class="horizonte" id="horizonte" viewBox="0 0 1440 120" preserveAspectRatio="none" aria-hidden="true"></svg>
+
+<header class="top">
+  <a class="marca" href="#inicio" aria-label="Inicio"><svg viewBox="0 0 40 40" width="30" height="30"><path d="M20 6c5 0 6 3 9 4s6 4 5 9 1 8-3 11-7 4-11 4-8-1-11-4-4-6-3-11 2-8 5-9 4-4 9-4z" stroke-width="2.4" style="fill:var(--acido);stroke:var(--tinta)"/><path d="M11 17h8v4h-8zM21 17h8v4h-8z" style="fill:var(--tinta)"/><path d="M13 26q7 5 14 0" fill="none" stroke-width="2.4" style="stroke:var(--tinta)"/></svg></a>
+  <nav id="nav" aria-label="Secciones">
+    <a href="#inicio">Inicio</a><a href="#radio">Radio</a><a href="#banda">La banda</a><a href="#historia">Historia</a><a href="#discos">Discos</a><a href="#vidas">Otras vidas</a><a href="#datos">Datos</a><a href="#adn">ADN</a><a href="#maquina">La máquina</a><a href="#escenarios">Escenarios</a><a href="#videos">Videos</a><a href="#cabos">Cabos sueltos</a><a href="#ofrenda">Ofrenda</a><a href="#firma">Firma</a>
+  </nav>
+  <button class="hamb" id="hamb" aria-label="Abrir menú" aria-expanded="false" aria-controls="nav"><svg viewBox="0 0 40 40" width="34" height="34"><g class="h-l"><path d="M6 12h28"/><path d="M6 20h28"/><path d="M6 28h28"/></g><g class="h-x"><path d="M10 10l20 20M30 10L10 30"/></g></svg></button>
+</header>
+
+<main>
+<!-- ================= HERO ================= -->
+<section class="hero" id="inicio">
+  <div class="picado" id="picado" aria-hidden="true"></div>
+  <div class="ribbon">Un regalito de Fungirak para El Peyote Asesino</div>
+  <div class="hero-grid">
+    <div>
+      <p class="eyebrow">Villa Española, Montevideo · desde el 28 de agosto de 1994</p>
+      <h1 aria-label="El Peyote Asesino"><span class="el">el</span><span class="peyote" id="peyote" aria-hidden="true"></span><span class="asesino">asesino</span></h1>
+      <p class="sub">Hijos del exilio que volvieron de México con discos de Nueva York en la valija. Rap blanco, metal, funk, tango, candombe «y otros yuyos». Se separaron en 1999 y la música siguió pasando de mano en mano hasta que volvieron. Hoy siguen arriba del escenario.</p>
+      <div class="cta">
+        <button class="btn fuerte" data-radio>▶ Prender la radio</button>
+        <a class="btn" href="#historia">Recorrer 32 años</a>
+        <a class="btn" href="#ofrenda">Las 3 letras</a>
+      </div>
+    </div>
+    <div class="hero-art">
+      <div class="lamina tilt" id="lamina"><img src="https://i.scdn.co/image/ab6761610000e5eb82caa33c1641715a6ef56086" alt="El personaje del Peyote Asesino en versión pop art, verde sobre rojo"><div class="glare"></div></div>
+      <div class="pegotines" id="pegotines" aria-hidden="true">
+        <span class="sticker s1" style="--r:-8deg">El Peyote Asesino está buscando problemas</span>
+        <span class="sticker s2" style="--r:6deg">rap blanco</span>
+        <span class="sticker s3" style="--r:-3deg">«y otros yuyos»</span>
+        <span class="sticker s4" style="--r:11deg">¡Dale, que es tarde!</span>
+      </div>
+      <p class="hint">Los pegotines se pueden despegar y mover.</p>
+    </div>
+  </div>
+  <div class="stats">
+    <div class="stat"><b data-count="1994">0</b><span>primer show, en El Perro Azul</span></div>
+    <div class="stat"><b data-count="3">0</b><span>discos de estudio: 1995, 1998, 2021</span></div>
+    <div class="stat"><b id="nTemas" data-count="35">0</b><span>canciones distintas en los tres discos</span></div>
+    <div class="stat"><b id="totalmin">0</b><span>minutos de estudio</span></div>
+    <div class="stat"><b data-count="10">0</b><span>años parados, y la música siguió circulando</span></div>
+    <div class="stat"><b data-count="2">0</b><span>Premios Graffiti 2022</span></div>
+  </div>
+</section>
+<div class="marquee" aria-hidden="true"><div class="track" id="mq"></div></div>
+
+<!-- ================= RADIO ================= -->
+<section id="radio" class="reveal">
+  <div class="kicker">Radio Villa Española</div>
+  <h2>Poné<br><em>el casete</em></h2>
+  <div class="radio">
+    <div class="deck">
+      <div class="casete" id="casete">
+        <div class="etiqueta"><b id="casTit">El Peyote Asesino</b><span id="casSub">lado A · rap blanco</span></div>
+        <div class="ventana"><i class="carrete c1"></i><i class="carrete c2"></i><div class="cinta"></div></div>
+        <div class="tornillos"><i></i><i></i><i></i><i></i></div>
+      </div>
+      <p class="nota">Canciones completas desde el canal oficial de la banda en YouTube y su canal de temas. Elegí una y seguí navegando: la música te acompaña en la barra de abajo.</p>
+    </div>
+    <div class="tracklist" id="radioList"></div>
+  </div>
+</section>
+
+<!-- ================= LA BANDA ================= -->
+<section id="banda" class="reveal">
+  <div class="kicker">La banda</div>
+  <h2>Un cubo<br><em>de Rubik demencial</em></h2>
+  <div class="bio">
+    <div>
+      <p class="lead">El Peyote Asesino nació a mediados de 1994 en Villa Española, Montevideo, cuando <b>Fernando Santullo</b> y <b>Juan Campodónico</b> decidieron armar una banda. Varios de ellos eran hijos de exiliados uruguayos que habían crecido en México durante la dictadura, y Santullo volvía de Nueva York con discos de hip hop que acá casi nadie tenía. El 28 de agosto de 1994 tocaron por primera vez en el pub El Perro Azul: «ocho temas, 50 amigos, un boliche sin escenario».</p>
+      <div class="quote">«Peyote es un estado de la mente.»<small>Fernando Santullo · El Observador, 2021</small></div>
+      <p>Dos semanas después, en el pub Big Bang, entraron <b>PP Canedo</b> en batería y <b>Carlos Casacuberta</b> en voz y guitarra, y la banda quedó armada con <b>Daniel Benia</b> en el bajo. Dos voces que alternan rap y canto, guitarras de metal, loops y programación, y un humor que se ríe primero de sí mismo. El nombre viene de un personaje de la historieta mexicana <i>El Santos</i>, de Jis y Trino: un botón de peyote de anteojos negros y sonrisa enorme que terminó siendo la figura de su primera tapa.</p>
+      <ul class="facts">
+        <li><b>Barrio</b>Villa Española, Montevideo. Ahí tenían la sala de ensayo a la que llegó Gustavo Santaolalla.</li>
+        <li><b>Debut</b>28/8/1994, pub El Perro Azul. Esa noche tocaron L. Mental, Benia, Campodónico y Roberto Rodino en batería.</li>
+        <li><b>Se definían</b>como «rap blanco», con Beastie Boys y Cypress Hill en el radar.</li>
+        <li><b>Productores</b>Gabriel Casacuberta (1995), Gustavo Santaolalla y Aníbal Kerpel (1998), Juan Campodónico (2021).</li>
+        <li><b>Sellos</b>Orfeo, Surco/Universal y Bizarro.</li>
+        <li><b>Premios</b>Generación 95 (1994), grupo revelación 1995 para Rock de Primera y dos Graffiti en 2022: álbum de hip hop y banda del año.</li>
+        <li><b>Banda hoy</b>Santullo (voz) · Casacuberta (voz y guitarra) · Campodónico (guitarra) · PP Canedo (batería) · Matías Rada (guitarra y voz) · Bruno Tortorella (teclados y voz) · Nacho Correa (bajo).</li>
+      </ul>
+    </div>
+    <figure class="portrait">
+      <div class="stack" id="pstack"></div>
+      <figcaption id="pcap">El Peyote Asesino · 1995 · el personaje es de Jis y Trino</figcaption>
+    </figure>
+  </div>
+  <div class="integrantes" id="integrantes"></div>
+  <div class="eras">
+    <button class="era" data-set-era="95"><span class="y">1994 — 1999</span><h4>La primera vida</h4><p>Villa Española, el Perro Azul, el disco de Orfeo, MTV Latino, Los Ángeles con Santaolalla y una gira por México. En mayo de 1999, después de Chile, se separan.</p></button>
+    <button class="era" data-set-era="98"><span class="y">2009 · 2016</span><h4>Las vueltas</h4><p>Diez años parados. Vuelven para cerrar el Pilsen Rock en Durazno y llenar dos Teatros de Verano; en 2016 repiten, con Matías Rada cubriendo a Casacuberta.</p></button>
+    <button class="era" data-set-era="21"><span class="y">2017 — 2023</span><h4>La que no se fue</h4><p>«Bailando samba», la primera canción nueva en 19 años. Después <i>Serial</i>, dos Graffiti y el Teatro de Verano otra vez.</p></button>
+    <button class="era" data-set-era="26"><span class="y">2024 — hoy</span><h4>Bien de Vivo</h4><p>Los 30 años del primer show, el primer disco tocado entero, Peyote vs. Mota en el Velódromo y una banda que sigue sumando shows.</p></button>
+  </div>
+  <p class="eras-nota">Tocá una época para vestir todo el sitio con sus colores y su letra. El cubito de la esquina hace lo mismo.</p>
+</section>
+
+<!-- ================= HISTORIA ================= -->
+<section id="historia" class="reveal">
+  <div class="kicker">Historia</div>
+  <h2>Treinta y dos años<br><em>y diez de silencio</em></h2>
+  <p class="lead">Shows, discos, separaciones y vueltas. Filtrá la línea de tiempo:</p>
+  <div class="tl-filters" id="tlf">
+    <button class="chip on" data-f="all">Todo</button>
+    <button class="chip" data-f="noventa">Primera vida</button>
+    <button class="chip" data-f="disco">Discos y lanzamientos</button>
+    <button class="chip" data-f="mvd">Shows en Montevideo</button>
+    <button class="chip" data-f="afuera">Afuera</button>
+    <button class="chip" data-f="vuelta">Las vueltas</button>
+    <button class="chip" data-f="hoy">Hoy y lo que viene</button>
+  </div>
+  <div class="timeline" id="timeline"></div>
+</section>
+
+<!-- ================= DISCOS ================= -->
+<section id="discos" class="reveal">
+  <div class="kicker">Discografía</div>
+  <h2>Plastilina, cromo<br><em>y mimeógrafo</em></h2>
+  <p class="lead" style="margin-bottom:60px">Tres discos de estudio en 26 años, cada uno con su propia piel: el personaje de plastilina de 1995, el auto de las luces nocturnas de 1998 y la fotocopia gastada de 2021. La barrita debajo de cada tema marca cuánto dura. Apretá <span class="oir-ej">▶ oír</span> para escucharlo.</p>
+  <div class="discs" id="discs"></div>
+  <h3 class="sub-h">Singles, en vivo y rarezas</h3>
+  <div class="others" id="others"></div>
+</section>
+
+<!-- ================= OTRAS VIDAS ================= -->
+<section id="vidas" class="reveal cuaderno">
+  <div class="kicker">Otras vidas</div>
+  <h2>Mientras<br><em>el Peyote dormía</em></h2>
+  <p class="lead">Durante los diez años sin Peyote, los integrantes no se quedaron quietos: armaron Bajofondo, produjeron a Jorge Drexler, se fueron a Barcelona, entraron a La Vela Puerca. Por eso, para Santullo, las «puertitas» que abrió Peyote fueron después «puertas muy amplias» para otras bandas.</p>
+  <div class="vidas" id="vidasGrid"></div>
+  <div class="xerox">
+    <h3>La primera formación · 28·08·1994</h3>
+    <div class="lineup">
+      <div><b>Fernando Santullo</b><span>«L. Mental», voz</span></div>
+      <div><b>Juan Campodónico</b><span>guitarra</span></div>
+      <div><b>Daniel Benia</b><span>bajo</span></div>
+      <div><b>Roberto Rodino</b><span>batería, solo esa noche</span></div>
+    </div>
+    <p class="chico">Dos semanas después entraron PP Canedo (batería) y Carlos Casacuberta (voz y guitarra). Luciano Supervielle tocó sampler y tornamesa como invitado en 1995 y en 2009.</p>
+  </div>
+  <div class="xerox" style="margin-top:40px">
+    <h3>06·12·2025 · Sala del Museo · 30 años del primer disco</h3>
+    <p class="chico" style="margin-top:6px">Esa noche tocaron el disco debut entero y en orden, y después temas de <i>Terraja</i> y <i>Serial</i>, con Catatumbo como invitada. Ahí se grabó <i>Bien de Vivo</i>. Esta es la primera parte del show, según el orden del disco:</p>
+    <ol class="setlist25" id="set25"></ol>
+  </div>
+</section>
+
+<!-- ================= DATOS ================= -->
+<section id="datos" class="reveal">
+  <div class="kicker">Radiografía</div>
+  <h2>El Peyote<br><em>en números</em></h2>
+  <p class="lead" style="margin-bottom:40px">Las duraciones son las oficiales de las plataformas. Los tempos, las tonalidades y la energía los estimé con un análisis automático de audio (librosa) sobre los fragmentos de 30 segundos de Deezer, así que son aproximados. Oyentes y vistas son de octubre de 2026. Pasá el mouse o tocá los gráficos.</p>
+  <div class="grid2">
+    <div class="card wide"><h3>Cuánto dura cada canción</h3><div class="note">los tres discos de estudio, en orden y en minutos</div><svg id="chDur" viewBox="0 0 1100 360" width="100%"></svg><div class="legend" id="lgDur"></div></div>
+    <div class="card wide"><h3>Encendidos y apagados</h3><div class="note">cada cuadrito es un año desde 1994: lleno si la banda tocó en vivo, vacío si estuvo parada</div><svg id="chAnios" viewBox="0 0 1100 150" width="100%"></svg></div>
+    <div class="card"><h3>Duración promedio por disco</h3><div class="note"><i>Terraja</i> estiró las canciones; <i>Serial</i> las volvió a apretar</div><svg id="chAvg" viewBox="0 0 500 200" width="100%"></svg></div>
+    <div class="card"><h3>Minutos por disco</h3><div class="note">estudio y singles en vivo de 2026</div><svg id="chTot" viewBox="0 0 500 220" width="100%"></svg></div>
+    <div class="card"><h3>Tempo × energía</h3><div class="note">BPM estimado contra volumen promedio: lo más pesado queda arriba</div><svg id="chScat" viewBox="0 0 500 340" width="100%"></svg></div>
+    <div class="card"><h3>Tonalidades</h3><div class="note">estimación por perfil de croma: manda La menor</div><svg id="chKey" viewBox="0 0 500 340" width="100%"></svg></div>
+    <div class="card"><h3>Lo más escuchado en Spotify</h3><div class="note">el orden de los temas populares del perfil · 17,7 mil oyentes mensuales</div><ol class="ranking" id="chSpo"></ol></div>
+    <div class="card"><h3>Lo más visto en YouTube</h3><div class="note">miles de vistas · tinta: canal oficial · verde: canal de temas · gris: subidas de fans</div><svg id="chYt" viewBox="0 0 500 330" width="100%"></svg></div>
+  </div>
+</section>
+
+<!-- ================= ADN ================= -->
+<section id="adn" class="reveal">
+  <div class="kicker">ADN de las letras</div>
+  <h2>Cómo escribe<br><em>el Peyote</em></h2>
+  <p class="lead" style="margin-bottom:40px">Las letras las escriben sobre todo Santullo y Casacuberta, en un «corta y pega» colectivo. Estas marcas aparecen una y otra vez en los tres discos. Las citas son fragmentos breves, con su fuente.</p>
+  <div class="dna" id="dna"></div>
+  <div class="cloud" id="cloud"></div>
+</section>
+
+<!-- ================= LA MÁQUINA ================= -->
+<section id="maquina" class="reveal">
+  <div class="kicker">La máquina de picar carne</div>
+  <h2>Qué hay<br><em>adentro del ruido</em></h2>
+  <p class="lead" style="margin-bottom:40px">Un sitio de rock uruguayo los apodó «la máquina de picar carne». Santullo lo explica a su manera: «Incluimos máquinas y samplers, pero a la vez todo es hipertocado». Estas son las piezas de la máquina:</p>
+  <div class="lab" id="lab"></div>
+</section>
+
+<!-- ================= ESCENARIOS ================= -->
+<section id="escenarios" class="reveal">
+  <div class="kicker">Escenarios y red</div>
+  <h2>Del Perro Azul<br><em>al Velódromo</em></h2>
+  <div class="mapwrap">
+    <div class="card"><h3>Mapa de escenarios</h3><div class="note">Uruguay y Buenos Aires · las flechas salen hacia México, Los Ángeles y Chile</div><svg id="map" viewBox="0 0 520 520" width="100%"></svg></div>
+    <div><h3 style="margin-bottom:14px">Salas, festivales y estudios</h3><ul class="venues" id="venues"></ul></div>
+  </div>
+  <div class="card" style="margin-top:30px"><h3>La red del Peyote</h3><div class="note">integrantes, productores, invitados, bandas amigas y la gente de la imagen · pasá el mouse para ver cada grupo</div><svg id="net" viewBox="0 0 1100 620"></svg></div>
+</section>
+
+<!-- ================= VIDEOS ================= -->
+<section id="videos" class="reveal">
+  <div class="kicker">Videoteca</div>
+  <h2>Ver<br><em>y saltar</em></h2>
+  <p class="lead">Clips oficiales, shows enteros, archivo de MTV y entrevistas. Arrastrá, usá las flechas o tocá el del centro para verlo.</p>
+  <div class="carousel" id="car"></div>
+  <div class="car-nav">
+    <button class="ib" id="carPrev" aria-label="Anterior"><svg width="16" height="16" viewBox="0 0 10 10"><path d="M7 1L3 5l4 4" stroke="currentColor" fill="none" stroke-width="1.6"/></svg></button>
+    <div class="dots" id="dots"></div>
+    <button class="ib" id="carNext" aria-label="Siguiente"><svg width="16" height="16" viewBox="0 0 10 10"><path d="M3 1l4 4-4 4" stroke="currentColor" fill="none" stroke-width="1.6"/></svg></button>
+  </div>
+  <div class="spot">
+    <iframe loading="lazy" title="Terraja en Spotify" src="https://open.spotify.com/embed/album/6lN38PkdmzvHad0xGdSXtN?theme=1" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
+    <iframe loading="lazy" title="El Peyote Asesino en Spotify" src="https://open.spotify.com/embed/album/750y9Zsol6rkrMdMhR3e1v?theme=1" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
+    <iframe loading="lazy" title="Serial en Spotify" src="https://open.spotify.com/embed/album/5Dg3CBfAhRGbgWasPKG6UK?theme=1" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
+  </div>
+</section>
+
+<!-- ================= CABOS ================= -->
+<section id="cabos" class="reveal">
+  <div class="kicker">Uniendo cabos</div>
+  <h2>Lo que dicen<br><em>los datos</em></h2>
+  <p class="lead" style="margin-bottom:44px">Conclusiones que salen de cruzar discos, créditos, escenarios y números:</p>
+  <div class="insights" id="insights"></div>
+  <div class="grid2" style="margin-top:80px;align-items:start">
+    <div>
+      <div class="kicker">Set sugerido · 45 minutos</div>
+      <ol class="setlist" id="setlist"></ol>
+      <p class="chico" style="margin-top:22px">Armado con los temas que más tocan en vivo según setlist.fm (Criminal, Denso, El Peyote Asesino, Guacho y L Mental) y con la curva de tempo y energía: arranca a los saltos, baja al medio con lo más denso y cierra con el hit.</p>
+    </div>
+    <div><div class="kicker">Guía de escucha según el humor</div><div class="moods" id="moods"></div></div>
+  </div>
+</section>
+
+<!-- ================= OFRENDA ================= -->
+<section id="ofrenda" class="ofrenda reveal">
+  <div class="kicker">Ofrenda</div>
+  <h2>Tres canciones<br><em>para el Peyote</em></h2>
+  <p class="ded">de Fungirak para El Peyote Asesino</p>
+  <p class="lead">Tres letras escritas en su idioma, pero nuevas: mitad México, mitad Villa Española, con dos voces que se pasan la pelota. No son para convencer a nadie. Son un regalo, por si alguna les sirve para algo.</p>
+  <div class="tabs" id="tabs" role="tablist">
+    <button class="on" role="tab" data-p="p1" style="--c:var(--turq)">Chido, bo</button>
+    <button role="tab" data-p="p2" style="--c:var(--rojo)">Máquina de picar carne</button>
+    <button role="tab" data-p="p3" style="--c:var(--violeta)">Mimeógrafo</button>
+  </div>
+
+  <article class="poem on" id="p1" style="--c:var(--turq)">
+    <aside><b>Chido, bo</b>Tono sugerido: <span class="k">La menor</span><br>Tempo: <span class="k">~96 BPM, rap a dos voces</span><br>Paisaje: <span class="k">el DF y Villa Española</span><br>Gen: <span class="k">el exilio en la boca</span><br>Textura: <span class="k">guitarra con wah, scratch, bandoneón al final</span></aside>
+    <div class="lyric">
+<span class="st"><span class="lab">Rapea L.</span>Me fui de botija con la valija de cartón,
+volví hablando raro, con acento de camión.
+En el DF me decían «güey, ¿qué onda, carnal?»
+y en Villa Española «¿qué hacés, bo? ¿todo mal?».
+Tortilla en la mochila, bizcochos en el bolsillo,
+mitad tequila, mitad mate y cigarrillo.
+No soy de acá ni de allá: soy del medio del charco,
+un cactus en la rambla esperando el barco.</span>
+<span class="ch"><span class="lab">Estribillo · canta Carlos</span>Chido, bo, chido, bo,
+la neta, ta, la neta, ta.
+Me trajeron de prestado
+y me quedé a tocar.
+Chido, bo, chido, bo,
+¿qué onda, gurí? ¿qué onda, güey?
+Si no entendés lo que digo,
+bailalo igual, que es ley.</span>
+<span class="st"><span class="lab">Rapea L.</span>Mi vieja guardaba cartas en una lata de galletas,
+mi viejo oía la radio pegado a la perilla,
+contando los inviernos que faltaban pa' la orilla.
+Volvimos en el ochenta y pico, con los dientes apretados,
+a un país en blanco y negro que nos miraba de costado.
+Yo traía los Beastie Boys grabados en un TDK
+y en el liceo me miraban como a un bicho raro, ta.</span>
+<span class="ch"><span class="lab">Estribillo</span>Chido, bo, chido, bo,
+la neta, ta, la neta, ta.
+Me trajeron de prestado
+y me quedé a tocar.
+Chido, bo, chido, bo,
+¿qué onda, gurí? ¿qué onda, güey?
+Si no entendés lo que digo,
+bailalo igual, que es ley.</span>
+<span class="st"><span class="lab">Puente · a dos voces, gritado</span>¡Órale! — ¡Dale!
+¡Chale! — ¡Ta!
+¡No manches! — ¡No jodas!
+¡Ándale! — ¡Vamo' arriba!</span>
+<span class="coda"><span class="lab">Coda</span>Del medio del charco.
+Del medio del charco.
+Del medio del charco.
+Ni de acá ni de allá...
+del medio del charco.</span>
+<span class="fin">— de Fungirak para El Peyote Asesino</span>
+    </div>
+  </article>
+
+  <article class="poem" id="p2" style="--c:var(--rojo)">
+    <aside><b>Máquina de picar carne</b>Tono sugerido: <span class="k">Mi menor</span><br>Tempo: <span class="k">~83 BPM, riff pesado, a lo Perkins</span><br>Voz: <span class="k">gutural en el puente</span><br>Gen: <span class="k">autoparodia + bronca</span><br>Final: <span class="k">cortar todo, susurro</span></aside>
+    <div class="lyric">
+<span class="st">Treinta años trepados a la misma tarima,
+la rodilla me cruje pero el riff todavía arrima.
+Nos dieron por muertos, nos tiraron flores,
+y salimos de la tumba con peores modales
+y mejores amplificadores.</span>
+<span class="st">Los zombies de Sahuayo en la primera fila,
+el pogo viene con receta pero nadie se achica.
+Si me duele la espalda, la espalda que se aguante:
+esto no es nostalgia, es un ruido de adelante.</span>
+<span class="st"><span class="lab">Pre</span>Prendé la máquina, que es tarde,
+dale, que es tarde, dale, que es tarde.</span>
+<span class="ch"><span class="lab">Estribillo</span>¡¡Máquina de picar carne!!
+Entra un tango, sale un riff.
+¡¡Máquina de picar carne!!
+Entra el barrio, sale el beat.
+Entra todo lo que sobra
+y sale algo que es de vos.</span>
+<span class="st">Nos pidieron que volviéramos a ser los del noventa,
+como si uno fuera un disco y se volviera a dar vuelta.
+Copiarse a uno mismo es un deporte triste:
+prefiero equivocarme en algo que todavía no existe.
+El candombe y el death metal en la misma licuadora,
+el bandoneón con distorsión a las cuatro de la aurora.</span>
+<span class="ch"><span class="lab">Estribillo</span>¡¡Máquina de picar carne!!
+Entra un tango, sale un riff.
+¡¡Máquina de picar carne!!
+Entra el barrio, sale el beat.
+Entra todo lo que sobra
+y sale algo que es de vos.</span>
+<span class="st"><span class="lab">Puente · susurro, después gutural</span>Shhh... está buscando problemas.
+Shhh... está buscando problemas.
+¡¡EL PEYOTE ESTÁ BUSCANDO PROBLEMAS!!</span>
+<span class="coda"><span class="lab">Coda · todo se corta</span>Dale, que es tarde.
+Dale, que es tarde.
+Dale, que es tarde...
+Dale.</span>
+<span class="fin">— de Fungirak para El Peyote Asesino</span>
+    </div>
+  </article>
+
+  <article class="poem" id="p3" style="--c:var(--violeta)">
+    <aside><b>Mimeógrafo</b>Tono sugerido: <span class="k">Sol mayor</span><br>Tempo: <span class="k">~112 BPM, medio tiempo que crece</span><br>Voz: <span class="k">canto limpio, coro de toda la banda</span><br>Gen: <span class="k">lo que fue y lo que es</span><br>Textura: <span class="k">Rhodes, guitarra clean, loop de cinta</span></aside>
+    <div class="lyric">
+<span class="st">Me acuerdo del olor a tinta violeta,
+de la hoja tibia, recién salida, en la carpeta.
+Cada copia salía un poco más gastada,
+pero se entendía igual: no se perdía nada.</span>
+<span class="st">Somos la copia de la copia de una copia,
+cada vez más borrosa, cada vez más propia.
+Un poco de aquel pibe, un poco de este viejo,
+mirándonos de frente adentro del mismo espejo.</span>
+<span class="ch"><span class="lab">Estribillo</span>Pasame por el mimeógrafo,
+que salga lo que salga.
+Si se me borra la cara,
+que quede la voz que canta.
+Pasame por el mimeógrafo,
+violeta, tibio, al revés:
+lo que fuimos se nos borra,
+lo que somos se nos ve.</span>
+<span class="st">El casete que grabaste del casete de tu hermano,
+el pegotín en la parada, el póster en el baño.
+Diez años sin tocarnos y la canción seguía
+cambiando de bolsillo, de pieza, de batería.</span>
+<span class="ch"><span class="lab">Estribillo</span>Pasame por el mimeógrafo,
+que salga lo que salga.
+Si se me borra la cara,
+que quede la voz que canta.
+Pasame por el mimeógrafo,
+violeta, tibio, al revés:
+lo que fuimos se nos borra,
+lo que somos se nos ve.</span>
+<span class="st"><span class="lab">Puente</span>No quiero la foto nueva
+ni el póster de cuando era:
+quiero la hoja con manchas
+que pasó de mano en mano,
+como un secreto de escuela,
+mientras nadie la tocaba.</span>
+<span class="coda"><span class="lab">Coda · coro</span>De mano en mano.
+De mano en mano.
+De mano en mano.
+De mano en mano...
+y volvió.</span>
+<span class="fin">— de Fungirak para El Peyote Asesino</span>
+    </div>
+  </article>
+</section>
+
+<!-- ================= FIRMA ================= -->
+<section id="firma" class="firma reveal">
+  <div class="seal" aria-hidden="true">
+    <svg viewBox="0 0 200 200"><defs><path id="circ" d="M100,100 m-80,0 a80,80 0 1,1 160,0 a80,80 0 1,1 -160,0"/></defs><circle cx="100" cy="100" r="96" stroke-width="2" style="fill:var(--papel);stroke:var(--tinta)"/><circle cx="100" cy="100" r="62" stroke-width="2" style="fill:var(--acido);stroke:var(--tinta)"/><text font-family="Rubik" font-weight="700" font-size="11.5" letter-spacing="3" style="fill:var(--tinta)"><textPath href="#circ">UN REGALITO DE FUNGIRAK · EL PEYOTE ASESINO · VILLA ESPAÑOLA · </textPath></text></svg>
+    <b>F</b>
+  </div>
+  <div class="kicker" style="justify-content:center">Firma</div>
+  <h2>Un regalito<br><em>de Fungirak</em></h2>
+  <p>En reconocimiento a <b>El Peyote Asesino</b>: a los hijos del exilio que trajeron de México el idioma y de Nueva York el ritmo; a la sala de ensayo de Villa Española a la que llegó Santaolalla; al disco que se grabó donde grababan Dr. Dre y Snoop Dogg y que tocaron seis veces; a los diez años en los que la música pasó de mano en mano; a <i>Serial</i>, a los Graffiti y al Bien de Vivo; a una banda que fabricó productores, cantantes y bateristas para medio rock uruguayo, y que treinta y dos años después sigue buscando problemas.</p>
+  <p>Gracias por las canciones. Esta página es un regalo: no pide nada y no vende nada.</p>
+  <div class="names"><span>El Perro Azul · 1994</span><span>Orfeo</span><span>Terraja</span><span>Can Am</span><span>Teatro de Verano</span><span>Pilsen Rock 2009</span><span>Serial</span><span>Bizarro</span><span>Bien de Vivo</span><span>Villa Española</span></div>
+  <div class="sig">— <a href="https://fungirak.com">Fungirak</a></div>
+</section>
+</main>
+
+<footer>
+  <div class="inner">
+    <div>
+      <h3>Aclaración</h3>
+      <p class="disc-note">Sitio homenaje <b>no oficial</b>, un regalo de Fungirak. No está afiliado a El Peyote Asesino, a sus integrantes, a Bizarro Records, a Universal ni a Orfeo. El personaje del Peyote Asesino es de Jis y Trino. Las tapas, los videos y los embeds pertenecen a sus autores y se muestran enlazados a su fuente oficial (YouTube, Spotify, Deezer). Las letras originales de la banda se citan solo en fragmentos breves; completas están en las plataformas oficiales. Tempos, tonalidades y energía son estimaciones automáticas. Las tres letras de la Ofrenda son obra original de Fungirak.<br><br>Canales oficiales: <a href="https://www.peyoteasesino.com/" target="_blank" rel="noopener">peyoteasesino.com</a> · <a href="https://open.spotify.com/artist/2cYeADErfbwZ0xIP19KeWD" target="_blank" rel="noopener">Spotify</a> · <a href="https://www.youtube.com/@peyoteoficial" target="_blank" rel="noopener">YouTube</a> · <a href="https://www.instagram.com/peyote_asesino_/" target="_blank" rel="noopener">Instagram</a> · <a href="https://www.facebook.com/PeyoteAsesinoOficial" target="_blank" rel="noopener">Facebook</a> · <a href="https://soundcloud.com/peyoteasesino" target="_blank" rel="noopener">SoundCloud</a> · <a href="https://www.deezer.com/artist/1237182" target="_blank" rel="noopener">Deezer</a></p>
+    </div>
+    <div>
+      <h3>Fuentes</h3>
+      <div class="srcs" id="srcs"></div>
+    </div>
+  </div>
+  <p class="hecho">Hecho en el medio del charco · 2026</p>
+</footer>
+
+<!-- reproductor -->
+<div class="player" id="player" role="region" aria-label="Reproductor">
+  <button class="x-close" id="pClose" aria-label="Cerrar reproductor">✕</button>
+  <div class="mini"><div id="ytmini"></div></div>
+  <div class="info">
+    <div class="a">Radio Villa Española · <span id="pA">—</span></div>
+    <div class="t" id="pT">Elegí un tema</div>
+    <div class="bar" id="pBarWrap"><i id="pBar"></i></div>
+  </div>
+  <div class="ctr">
+    <div class="eq" id="eq" aria-hidden="true"></div>
+    <button class="ib" id="pPrev" aria-label="Anterior"><svg width="16" height="16" viewBox="0 0 10 10"><path d="M2 1h1.5v8H2zM9 1L3.5 5 9 9z" fill="currentColor"/></svg></button>
+    <button class="ib main" id="pPlay" aria-label="Reproducir o pausar"><svg width="18" height="18" viewBox="0 0 10 10"><path d="M2 1l7 4-7 4z" fill="currentColor"/></svg></button>
+    <button class="ib" id="pNext" aria-label="Siguiente"><svg width="16" height="16" viewBox="0 0 10 10"><path d="M6.5 1H8v8H6.5zM1 1l5.5 4L1 9z" fill="currentColor"/></svg></button>
+  </div>
+</div>
+
+<div class="modal" id="modal"><div class="box" id="modalBox"></div></div>
+<div class="tip" id="tip"></div>
+<script src="app.js"></script>
+<script>if('serviceWorker' in navigator)addEventListener('load',()=>navigator.serviceWorker.register('/sw.js'));</script>
+</body>
+</html>
