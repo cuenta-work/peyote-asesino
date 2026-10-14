@@ -393,6 +393,8 @@ footer .inner{max-width:1240px;margin:0 auto;display:grid;grid-template-columns:
 footer h3{font-size:22px;margin-bottom:14px;color:var(--e1)}
 html[data-era="21"] footer h3{color:#b7a7ff}
 footer a{color:var(--papel);text-decoration-color:var(--e1)}
+footer a:hover{color:var(--e1);text-decoration-color:currentColor}
+html[data-era="21"] footer a:hover{color:#b7a7ff}
 .disc-note{font-size:14.5px;line-height:1.65;color:#d9d5df}
 .srcs{columns:2;column-gap:30px;font-size:13.5px;line-height:1.9}
 .srcs a{display:block;break-inside:avoid}
